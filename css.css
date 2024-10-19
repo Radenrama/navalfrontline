@@ -1,0 +1,68 @@
+body{background-color: white;
+    font-family:serif;margin: 0;padding: 0;}
+
+
+header{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+footer{    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 0;}
+
+nav{border: 2px solid black;
+    background-color:black; opacity: 75%;
+}
+
+nav ul{list-style: none; padding: 10; text-align: right;}
+
+nav ul li{display: inline; 
+    margin-right: 15px;     text-decoration: none;
+    color: white; width: 45%; height 20%;}
+
+.backvid video{
+    /*width:100%*/ 
+    width: 97%; 
+    height: 100vh; 
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0; margin: 0; padding: 0;
+border: 20px solid black;
+}
+
+
+.article1{color: white; text-align:left; font-size: medium; background-image: url(gambar/shipbackground/Saratoga\ main\ cannon\ fire.webp); background-size: cover; background-repeat: no-repeat; width: 97%; height: 1700px;border: 20px solid black;
+margin-top: 250px;
+}
+
+.article2{color: white; text-align:left; font-size: medium; background-image: url(gambar/shipbackground/ss\ chased\ by\ dd.webp); background-size: cover; background-repeat: no-repeat; width: 97%; height: auto; padding: 0; margin: 0; border: 20px solid black}
+
+.article3{color: white; text-align:left ; font-size: medium; background-image: url(gambar/shipbackground/ss2.webp); background-repeat: no-repeat; background-size: cover; width: 97%; height: auto; border: 20px solid black}
+.article4{color: white; text-align:left ; font-size: medium; background-image: url(gambar/shipbackground/Baltimore\ releasing\ scout.webp); background-repeat: no-repeat; background-size: cover; width: 97%; height: auto; border: 20px solid black}
+
+figure{padding: 4px;
+    margin: auto;}
+
+figcaption{padding: 2px; text-align: left; color: white; text-decoration: none; font-size: small;}
+
+.a{
+display: inline-block;
+text-align: center; padding-top: 8%; opacity: 50%; margin-left: 20px;}
+.a:hover{opacity: 100%; padd}
+
+h1{padding-top: 15%; color: white;font-size: x-large; margin-left: 20px;}
+
+.video-container{
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.video-container iframe{position: absolute;
+top: 0; left: 0; width: 100%; height: 700px;
+border: none;}
